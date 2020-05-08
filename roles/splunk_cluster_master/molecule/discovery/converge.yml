@@ -1,0 +1,5 @@
+---
+- name: Converge
+  hosts: cluster_master
+  roles:
+    - role: splunk_cluster_master
